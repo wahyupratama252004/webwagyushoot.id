@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAGYUSHOOT.ID</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+    <style>
+      /* Custom styling for the cards */
+      .card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background-color: #fff;
+        border: 1px solid #E5E7EB;
+        border-radius: 12px;
+      }
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        background-color: #FFFBF2; 
+      }
+
+     
+      .card i {
+        color: #000000; 
+        cursor: pointer;
+      }
+
+     
+      .logo {
+        width: 140px;
+        height: 140px;
+        object-fit: cover;
+        border-radius: 50%;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+      }
+
+      
+      body {
+        background: linear-gradient(135deg, #ffeb0a69, #ffeb0a61); 
+        color: #33333330;
+      }
+
+      .text-primary {
+        color: #333; 
+      }
+
+      .text-secondary {
+        color: #6B7280; /* Lighter gray for secondary text */
+      }
+
+      /* Hover effect for submenu */
+      .submenu {
+        display: none;
+        position: absolute;
+        background-color: #FFB800; /* Bright yellow background */
+        color: #fff; /* White text */
+        border-radius: 8px;
+        padding: 8px 16px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin-top: 5px;
+      }
+
+      .submenu a {
+        color: #333; /* Dark gray for submenu links */
+        text-decoration: none;
+        padding: 8px 0;
+        display: block;
+      }
+
+      .submenu a:hover {
+        background-color: #F57C00; /* Darker yellow on hover */
+      }
+
+      /* Display submenu on hover */
+      .menu-item:hover .submenu {
+        display: block;
+      }
+
+      /* Card text styling */
+      .card-text {
+        color: #4B5563;
+      }
+
+      .card-text:hover {
+        color: #FFB800; /* Change text to yellow on hover */
+      }
+
+      /* Media query for mobile adjustments */
+      @media (max-width: 640px) {
+        body {
+          background-color: #000000; /* Darker background on mobile */
+        }
+      }
+
+      /* Styling for the main heading */
+      h1 {
+        color: #FFB800; /* Yellow primary text */
+      }
+
+      /* Custom background for container */
+      .container {
+        background-color: hsl(0, 0%, 100%); /* White background for the container */
+        box-shadow: 0 0 25px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="max-w-lg mx-auto p-6 rounded-lg mt-10 container">
+      <div class="text-center mb-6">
+        <!-- Enhanced logo -->
+        <img alt="WAGYUSHOOT.ID" class="logo mx-auto mb-4" src="logo1.jpeg"/>
+
+        <h1 class="text-3xl font-bold text-primary">WAGYUSHOOT.ID</h1>
+        <p class="text-secondary mt-2">
+          Welcome, Foto masih mentahan Tebus foto? <br> DM/WA
+        </p>
+        
+        <!-- Icons below the text -->
+        <div class="mt-4 flex justify-center space-x-4">
+          <a href="https://wa.me/123456789" target="_blank" class="text-green-500 hover:text-green-700">
+            <i class="fab fa-whatsapp fa-2x"></i>
+          </a>
+          <a href="https://instagram.com/yourinstagram" target="_blank" class="text-pink-500 hover:text-pink-700">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="space-y-4">
+        <!-- Card 1 -->
+        <div class="card p-4 rounded-lg flex items-center justify-between shadow-md hover:shadow-xl">
+          <div class="flex items-center">
+            <img alt="Motorcycle on the road" class="w-14 h-14 rounded-full mr-4" src="logo16nyored.jpg"/>
+            <span class="text-lg font-semibold text-primary">Nyored 16 Maret | JB Sampora Kuningan </span>
+          </div>
+          <i class="fas fa-ellipsis-h text-gray-500"></i>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card p-4 rounded-lg flex items-center justify-between shadow-md hover:shadow-xl">
+          <div class="flex items-center">
+            <img alt="Motorcycle near a house" class="w-14 h-14 rounded-full mr-4" src="nyored9.jpg"/>
+            <span class="text-lg font-semibold text-primary">Nyored 9 Maret | JB Sampora Kuningan</span>
+          </div>
+          <i class="fas fa-ellipsis-h text-gray-500"></i>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card p-4 rounded-lg flex items-center justify-between shadow-md hover:shadow-xl">
+          <div class="flex items-center">
+            <img alt="Motorcycle on the road" class="w-14 h-14 rounded-full mr-4" src="IMG_6563.jpg"/>
+            <span class="text-lg font-semibold text-primary">9 Februari 2025 | JB Sampora Kuningan</span>
+          </div>
+          <i class="fas fa-ellipsis-h text-gray-500"></i>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="card p-4 rounded-lg flex items-center justify-between shadow-md hover:shadow-xl">
+          <div class="flex items-center">
+            <img alt="Motorcycle on the road" class="w-14 h-14 rounded-full mr-4" src="feb23.jpg"/>
+            <span class="text-lg font-semibold text-primary">16 Januari 2025 | JB Sampora Kuningan</span>
+          </div>
+          <i class="fas fa-ellipsis-h text-gray-500"></i>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="card p-4 rounded-lg flex items-center justify-between shadow-md hover:shadow-xl">
+          <div class="flex items-center">
+            <img alt="Motorcycle on the road" class="w-14 h-14 rounded-full mr-4" src="tikungan.jpg"/>
+            <span class="text-lg font-semibold text-primary">23 Februari 2025 | JB Sampora Kuningan</span>
+          </div>
+          <i class="fas fa-ellipsis-h text-gray-500"></i>
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
